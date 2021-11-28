@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Bootstrap5 Portfolio </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/dfe227f866.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--nav start-->
+    <nav class="navbar navbar-light bg-light">
+        <div class="container-lg">
+          <a class="navbar-brand" href="#">My Portfolio</a>
+          <div class="dropdown">
+            <a class="btn btn-danger" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item" href="#home">Home</a></li>
+              <li><a class="dropdown-item" href="#about">About</a></li>
+              <li><a class="dropdown-item" href="#contact">Contact</a></li>
+            </ul>
+          </div>
+
+        </div>
+      </nav>
+      <!--nav end-->
+      <!--home start-->
+      <section class="home" id="home">
+        <div class="container-lg mt-5">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="image text-center">
+                        <img src="images/img1.jpg" alt="" class="rounded-circle" width=450px>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text">
+                        <p class="text-muted">Hello!</p>
+                        <h1 class="fs-4">I'm Jevgeni</h1>
+                        <h2 class="text-danger text-uppercase">A Hacker</h2>
+                        <p class="text-muted">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore culpa sed distinctio recusandae fugit ipsam? Minus laboriosam soluta, ullam harum quasi enim ex qui, nisi doloremque vel magnam quis veritatis. Fugiat quibusdam temporibus rem quas.</p>
+                        <a href="" class="btn btn-danger">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <!--home end-->
+      <!--about start-->
+      <section class="about" id="about">
+
+        <div class="container-lg py-5">
+            <!--section about heading-->
+            <div class="row">
+                <div class="section-heading text-center">
+                    <h2 class="fw-bold mb-5">About Me</h2>
+                </div>
+            </div>
+            <!--section about heading end-->
+            <div class="row">
+                <!--project area start-->
+                <div class="col-lg-6">
+                    <div class="about-text">
+                        <h3 class="fs-4 mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                        <p class="text-muted">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facere libero reiciendis quidem hic. Dolor nulla dicta rem? Deserunt perferendis incidunt illo accusamus aperiam? Qui fugiat dolorum corporis reprehenderit repellat, sapiente, culpa at quibusdam perferendis soluta sint, nesciunt aliquam! Sint laboriosam error non fugit voluptates ipsam aperiam corporis et nemo minima?</p>
+                    </div>
+                    <!--stats start-->
+                    <div class="row text-center text-uppercase my-3">
+                        <div class="col-sm-4">
+                            <div class="stats">
+                                <h4 class="fw-bold fs-1">85</h4>
+                                <p class="text-muted">Hacks Completed</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="stats">
+                                <h4 class="fw-bold fs-1">73</h4>
+                                <p class="text-muted">Sad Companies</p>
+                            </div>
+                        </div>
+                        <div class="col-sm-4">
+                            <div class="stats">
+                                <h4 class="fw-bold fs-1">100%</h4>
+                                <p class="text-muted">Positive Reviews</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--stats end-->
+                    <!--social media links start-->
+                    <div class="row">
+                        <div class="col-lg-12 d-flex align-items-center">
+                            <a href="#" class="btn btn-danger me-4">Download CV</a>
+                            <div class="social-media">
+                                <a href="#" class="text-dark me-2"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class="text-dark me-2"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="text-dark me-2"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--social media links end-->
+                </div>
+                <!--project area end-->                
+                <!--progress bar area start-->
+                <div class="col-lg-6">
+                    <div class="skill mt-5 mb-4">
+                        <h3 class="fs-6">Pentagon</h3>
+                        <div class="progress" style="height: 10px;">
+                            <div class="progress-bar bg-danger" role="progressbar" style="width: 57%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                    </div>
+                    <div class="skill mt-5 mb-4">
+                        <h3 class="fs-6">Matrix</h3>
+                        <div class="progress" style="height: 10px;">
+                            <div class="progress-bar bg-success" role="progressbar" style="width: 94%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                    </div>
+                    <div class="skill mt-5 mb-4">
+                        <h3 class="fs-6">Area 51</h3>
+                        <div class="progress" style="height: 10px;">
+                            <div class="progress-bar bg-warning" role="progressbar" style="width: 17%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                    </div>
+                    <div class="skill mt-5 mb-4">
+                        <h3 class="fs-6">BTC</h3>
+                        <div class="progress" style="height: 10px;">
+                            <div class="progress-bar bg-info" role="progressbar" style="width: 26%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                          </div>
+                    </div>
+                </div>
+                <!--progress bar area end-->
+            </div>
+        </div>
+      </section>
+      <!--about  end-->
+      <!--Contact section start-->
+
+    <section class="contact" id="contact">
+        <div class="container-lg py-4">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="section-title text-center mb-5">
+                        <h2>Contact Me</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="contact-item d-flex mb-3">
+                        <div class="icon fs-4 text-primary">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5">Email</h3>
+                            <p class="text-muted">myemail@gmail.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item d-flex mb-3">
+                        <div class="icon fs-4 text-primary">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5">Phone</h3>
+                            <p class="text-muted">+458715874</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item d-flex mb-3">
+                        <div class="icon fs-4 text-primary">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="text ms-3">
+                            <h3 class="fs-5">Location</h3>
+                            <p class="text-muted">United States</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-7">
+                    <div class="contact-form">
+                        <form>
+                            <div class="row">
+                                <div class="col-lg-6 mb-4">
+                                    <input type="text" placeholder="Your Name" class="form-control form-control-lg fs-6 border-0">
+                                </div>
+
+                                <div class="col-lg-6 mb-4">
+                                    <input type="email" placeholder="Your Email" class="form-control form-control-lg fs-6 border-0">
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <textarea placeholder="Write us a message" rows="5" class="form-control form-control-lg fs-6 border-0"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-12 mt-4">
+                                    <button type="submit" class="btn btn-danger px-3">Submit</button>
+                                </div>
+                               
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Contact end-->
+
+    <footer class="footer border-top py-4">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="m-0 text-center text-muted">
+                        &#169; 2021 Jevgeni Glu.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
